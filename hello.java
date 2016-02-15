@@ -31,6 +31,7 @@ public class hello {
         boolean y = true;
         if (y){ // y has to be a boolean, int y = 1; will give us an error
             System.out.println("Hello world");
+            System.out.print("hellow rodl\n"); // print no new line, println new line
         }
 
     }
