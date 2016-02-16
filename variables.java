@@ -11,5 +11,7 @@ public class variables {
         // refer too
         System.out.println(first[0]); // print out some memory address
         // rest of the array still points to null
+        first[1] = first[0];
+        System.out.println(first[1]);
     }
 }
