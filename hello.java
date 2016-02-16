@@ -35,7 +35,10 @@ public class hello {
         }
 
         int hussein = 0;
-        hussein = "String";
+    //    hussein = "String";
+
+        variables yes = new variables();
+        System.out.println(yes);
 
     }
 }
