@@ -34,5 +34,8 @@ public class hello {
             System.out.print("hellow rodl\n"); // print no new line, println new line
         }
 
+        int hussein = 0;
+        hussein = "String";
+
     }
 }
