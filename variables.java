@@ -11,7 +11,8 @@ public class variables {
         // refer too
         System.out.println(first[0]); // print out some memory address
         // rest of the array still points to null
-        first[1] = first[0];
+        first[1] = first[0]; // second index now points to an object, only one object created so
+        // far
         System.out.println(first[1]);
     }
 }
