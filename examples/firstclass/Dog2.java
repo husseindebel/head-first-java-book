@@ -3,8 +3,24 @@
 // state of the object
 
 class Dog2 {
-    int size;
-    String name;
+    private int size;
+    private String name;
+
+    public int getSize(){
+        return size;
+    }
+
+    public void setSize(int s) {
+        size = s;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String n){
+        name = n;
+    }
 
     void bark(){
         if (size > 60){
