@@ -6,5 +6,10 @@ class DogTestDrive{
         System.out.println("My dogs name is "+awesomeDog.getName());
         System.out.println("My dogs size is "+awesomeDog.getSize());
         awesomeDog.bark();
+        hello();
     }
+    void hello(){
+        System.out.println("hello");
+    }
+
 }
